@@ -13,7 +13,25 @@ body {
     width: 1000px;
     margin: auto;
     background-color: rgb(168, 166, 166);
-    /* flex: 1 0 auto; */
+}
+
+/* .contact {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+} */
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+li {
+    padding: 0px 0px 10px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 header {
@@ -60,9 +78,5 @@ footer {
     align-items: center;
     padding: 10px;
     background-color: indianred;
-    /* width: 100%; */
-    /* margin: 0 auto; */
-    /* flex: 0 0 auto; */
     height: 60px;
-    
 }
