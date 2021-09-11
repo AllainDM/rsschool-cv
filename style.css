@@ -12,7 +12,9 @@ body {
     flex-direction: column;
     width: 1000px;
     margin: auto;
-    background-color: rgb(168, 166, 166);
+    background-color: rgb(197, 193, 193);
+    flex-grow: 1;
+    /* padding: 0px 30px; */
 }
 
 /* .contact {
@@ -36,7 +38,8 @@ li {
 
 header {
     display: flex;
-    background-color: indianred;
+    background-color: rgb(126, 124, 124);
+    width: 100%;
   }
 
 .name {
@@ -47,7 +50,7 @@ header {
 }
 
 .photo {
-    width: 30%;
+    width: 33%;
 }
 
 .rs-icon {
@@ -58,25 +61,35 @@ header {
     width: 55px;
 }
 
+.footer-giticon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: small;
+}
+
 aside {
-    min-width: 240px;
-    padding: 10px 30px;
+    min-width: 330px;
+    padding: 0px 20px 0px 70px;
 }
 
 main {
     display: flex;
+    width: 100%;
+    padding: 0px 30px;
 }
 
-.content {
+/* .content {
     flex-grow: 1;
     padding: 10px 30px 60px;
-}
+} */
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: indianred;
+    padding: 15px 10px 10px 10px;
+    background-color: rgb(126, 124, 124);
     height: 60px;
+    /* width: 100%; */
 }
