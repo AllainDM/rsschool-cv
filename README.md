@@ -1,1 +1,0 @@
-https://allaindm.github.io/rsschool-cv/cv
